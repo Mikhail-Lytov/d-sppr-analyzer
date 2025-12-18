@@ -1,4 +1,4 @@
-package com.lytov.diplom.dsppranalyzer.configuration.feign.strategy;
+/*package com.lytov.diplom.dsppranalyzer.configuration.feign.strategy;
 
 import com.lytov.diplom.dparser.domain.enums.ModelType;
 import com.lytov.diplom.dparser.service.api.ComponentParser;
@@ -21,4 +21,4 @@ public class ModelParserConfiguration {
                 )
         );
     }
-}
+}*/

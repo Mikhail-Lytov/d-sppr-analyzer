@@ -1,7 +1,7 @@
 package com.lytov.diplom.dsppranalyzer.configuration.feign.logger;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.lytov.diplom.dparser.configuration.feign.properties.FeignProperties;
+import com.lytov.diplom.dsppranalyzer.configuration.feign.properties.FeignProperties;
 import feign.Request;
 import feign.Response;
 import feign.Util;

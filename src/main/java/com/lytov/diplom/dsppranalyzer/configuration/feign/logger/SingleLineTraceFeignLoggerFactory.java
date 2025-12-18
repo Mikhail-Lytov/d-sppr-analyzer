@@ -1,6 +1,6 @@
 package com.lytov.diplom.dsppranalyzer.configuration.feign.logger;
 
-import com.lytov.diplom.dparser.configuration.feign.properties.FeignProperties;
+import com.lytov.diplom.dsppranalyzer.configuration.feign.properties.FeignProperties;
 import feign.Logger;
 import lombok.RequiredArgsConstructor;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnClass;

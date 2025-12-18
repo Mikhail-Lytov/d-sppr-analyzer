@@ -25,11 +25,11 @@ public class AnalyzerRMQConfig {
 
     @Bean
     public Binding fromDSpprAnalyzerProcessBinding(
-            FanoutExchange fromCoreSecondParsResultExchange,
-            Queue fromCoreSecondParsResultQueue
+            FanoutExchange fromDSpprAnalyzerProcessExchange,
+            Queue fromDSpprAnalyzerProcessQueue
     ) {
         return BindingBuilder
-                .bind(fromCoreSecondParsResultQueue)
-                .to(fromCoreSecondParsResultExchange);
+                .bind(fromDSpprAnalyzerProcessQueue)
+                .to(fromDSpprAnalyzerProcessExchange);
     }
 }
